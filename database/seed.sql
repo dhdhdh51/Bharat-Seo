@@ -1,0 +1,4 @@
+INSERT INTO resume_templates (name, template_key, settings, active) VALUES
+('Modern','modern','{"font":"Inter","accent":"#355cff"}',1),('Classic','classic','{"font":"Georgia","accent":"#111827"}',1),('Executive','executive','{"font":"Inter","accent":"#243b53"}',1),('Minimal','minimal','{"font":"Inter","accent":"#475467"}',1),('Professional','professional','{"font":"Arial","accent":"#1d4ed8"}',1),('Technical','technical','{"font":"Roboto Mono","accent":"#0f766e"}',1),('Creative','creative','{"font":"Inter","accent":"#7c3aed"}',1),('ATS Focused','ats-focused','{"font":"Arial","accent":"#000000"}',1);
+INSERT INTO plans (name, price, currency, limits, active) VALUES
+('Free',0,'USD','{"cv_limit":1,"ai_credits":50,"templates":["ats-focused","classic"],"ats_scans":1}',1),('Pro',0,'USD','{"cv_limit":20,"ai_credits":1000,"templates":"all","ats_scans":25}',1),('Business',0,'USD','{"cv_limit":100,"ai_credits":5000,"templates":"all","ats_scans":100}',1);
